@@ -31,6 +31,6 @@ services:
       MYSQL_ROOT_PASSWORD: driva
       MYSQL_DATABASE: driva
     ports:
-      - "4306:3306"
+      - "3306:3306"
     volumes:
       - ./docker/mysql:/docker-entrypoint-initdb.d

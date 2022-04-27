@@ -1,0 +1,23 @@
+.body input {
+  margin: 0 0 16px 0;
+}
+.body label {
+  /* padding-left: 16px; */
+  /* padding-top: 16px; */
+}
+.body input {
+  width: calc(100% - 16px);
+  height: 24px;
+  margin-top: 8px;
+}
+.body p {
+  /* padding: 0px 0 0px 16px; */
+  font-size: small;
+  color: red;
+  margin-top: -16px;
+}
+
+/* .spread-container p {
+  position: absolute;
+  margin-top: 40px;
+} */

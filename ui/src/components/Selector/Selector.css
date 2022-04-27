@@ -1,0 +1,17 @@
+.Other-info-container select {
+  margin-top: 8px;
+  width: calc(100% - 8px);
+  height: 30px;
+  margin-bottom: 16px;
+}
+.spread-container select.year-selector,
+.spread-container input {
+  width: 46%;
+  float: left;
+}
+.spread-container select.month-selector,
+.spread-container select.frequency-selector {
+  width: 46%;
+  margin-left: 18px;
+  /* float: left; */
+}

@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "outDir": "./dist",
     // "moduleResolution": "node",
     "module": "commonjs",
     "allowJs": true,
     "target": "es6"
   },
-  "include": ["./src/**/*", "index.ts"],
+  "include": ["./src/**/*", "index.ts", "jsconfig.json"],
   "exclude": ["./dist"]
 }
